@@ -1,3 +1,5 @@
+// Gabriel Corella Practice Set 3
+// 03/17/17
 package pkgLibrary;
 
 import static org.junit.Assert.assertEquals;
@@ -12,8 +14,6 @@ import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-
-
 
 public class Book {
 
@@ -45,9 +45,6 @@ public class Book {
 		this.description = description;
 		this.cost = cost;
 	}
-	
- 
-
 	public String getId() {
 		return id;
 	}
